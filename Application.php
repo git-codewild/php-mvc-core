@@ -7,6 +7,7 @@ use codewild\csubmboer\models\ContactForm;
 
 class Application {
     public static string $ROOT_DIR;
+    public static string $VIEWS_DIR;
 
     public string $layout = 'main';
     public string $userClass;
@@ -19,9 +20,10 @@ class Application {
     public View $view;
     public static Application $app;
     public ?Controller $controller = null;
-    public function __construct($rootPath, array $config){
+    public function __construct($rootPath, $viewsPath, array $config){
 
         self::$ROOT_DIR = $rootPath;
+        self::$VIEWS_DIR = $viewsPath;
         self::$app = $this;
         $this->request = new Request();
         $this->response = new Response();
@@ -37,11 +39,11 @@ class Application {
             $this->user = $this->userClass::findOne([$primaryKey => $primaryValue]);
         } else {
             $this->user = null;
-        };        
+        };
     }
 
     public function run() {
-        try { 
+        try {
             echo $this->router->resolve();
         } catch(\Exception $e) {
             // if this is a HTTP error
