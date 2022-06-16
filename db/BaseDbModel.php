@@ -1,10 +1,10 @@
 <?php
 
-namespace codewild\csubmboer\core\db;
+namespace codewild\phpmvc\db;
 
-use codewild\csubmboer\core\Application;
-use codewild\csubmboer\core\exception\DbException;
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Application;
+use codewild\phpmvc\exception\DbException;
+use codewild\phpmvc\Model;
 
 abstract class BaseDbModel extends Model
 {

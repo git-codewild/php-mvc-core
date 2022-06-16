@@ -1,6 +1,6 @@
 <?php
 
-namespace codewild\csubmboer\core\table;
+namespace codewild\phpmvc\table;
 
 class FormRow extends BaseRow
 {

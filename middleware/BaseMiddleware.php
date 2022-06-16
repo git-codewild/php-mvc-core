@@ -1,6 +1,6 @@
 <?php
 
-namespace codewild\csubmboer\core\middleware;
+namespace codewild\phpmvc\middleware;
 
 abstract class BaseMiddleware {
     abstract public function execute();

@@ -1,11 +1,11 @@
 <?php
 
-namespace codewild\csubmboer\core\db;
+namespace codewild\phpmvc\db;
 
-use codewild\csubmboer\core\Application;
-use codewild\csubmboer\core\exception\DbException;
-use codewild\csubmboer\core\exception\NotFoundException;
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Application;
+use codewild\phpmvc\exception\DbException;
+use codewild\phpmvc\exception\NotFoundException;
+use codewild\phpmvc\Model;
 
 abstract class DbModel extends BaseDbModel {
     public const DEFAULT_UUID = '00000000-0000-00';

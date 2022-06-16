@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core\lists;
+namespace codewild\phpmvc\lists;
 
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Model;
 
 class DescriptionList extends Model
 {

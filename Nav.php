@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core;
+namespace codewild\phpmvc;
 
-use codewild\csubmboer\core\components\ListGroup;
+use codewild\phpmvc\components\ListGroup;
 
 abstract class Nav
 {

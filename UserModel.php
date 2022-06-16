@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core;
+namespace codewild\phpmvc;
 
-use codewild\csubmboer\core\db\DbModel;
+use codewild\phpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel {
     abstract public function getDisplayName(): string;

@@ -1,6 +1,6 @@
 <?php
 
-namespace codewild\csubmboer\core;
+namespace codewild\phpmvc;
 
 abstract class DbFile extends db\DbModel
 {

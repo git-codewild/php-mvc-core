@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core;
+namespace codewild\phpmvc;
 
-use codewild\csubmboer\core\db\Database;
+use codewild\phpmvc\db\Database;
 use codewild\csubmboer\models\ContactForm;
 
 class Application {

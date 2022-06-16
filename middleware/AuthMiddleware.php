@@ -1,10 +1,10 @@
 <?php
 
-namespace codewild\csubmboer\core\middleware;
+namespace codewild\phpmvc\middleware;
 
 use codewild\csubmboer\authorization\AuthHandler;
-use codewild\csubmboer\core\Application;
-use codewild\csubmboer\core\exception\ForbiddenException;
+use codewild\phpmvc\Application;
+use codewild\phpmvc\exception\ForbiddenException;
 use codewild\csubmboer\models\UserRole;
 
 class AuthMiddleware extends BaseMiddleware {

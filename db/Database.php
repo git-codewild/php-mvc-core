@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core\db;
+namespace codewild\phpmvc\db;
 
-use codewild\csubmboer\core\Application;
+use codewild\phpmvc\Application;
 
 class Database {
     public \PDO $pdo;

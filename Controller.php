@@ -1,9 +1,9 @@
 <?php
 
-namespace codewild\csubmboer\core;
+namespace codewild\phpmvc;
 
-use codewild\csubmboer\core\exception\NotFoundException;
-use codewild\csubmboer\core\middleware\BaseMiddleware;
+use codewild\phpmvc\exception\NotFoundException;
+use codewild\phpmvc\middleware\BaseMiddleware;
 
 class Controller {
     public string $layout = 'main';

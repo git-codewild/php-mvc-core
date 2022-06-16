@@ -8,5 +8,10 @@
             "email": "ben@codewild.org"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "codewild\\phpmvc": "."
+        }
+    }
 }

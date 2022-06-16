@@ -1,6 +1,6 @@
 <?php
 
-namespace codewild\csubmboer\core\form;
+namespace codewild\phpmvc\form;
 
 class RadioInputGroup extends InputGroup
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace codewild\csubmboer\core\exception;
+namespace codewild\phpmvc\exception;
 
 class ForbiddenException extends \Exception {
     protected $code = 403;

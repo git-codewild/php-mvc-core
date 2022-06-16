@@ -1,8 +1,8 @@
 <?php 
 
-namespace codewild\csubmboer\core\form;
+namespace codewild\phpmvc\form;
 
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Model;
 
 class InputField extends BaseField {
     public const TYPE_TEXT = 'text';

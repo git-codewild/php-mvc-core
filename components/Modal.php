@@ -1,6 +1,6 @@
 <?php
 
-namespace codewild\csubmboer\core\components;
+namespace codewild\phpmvc\components;
 
 class Modal
 {

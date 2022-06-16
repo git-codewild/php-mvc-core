@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core;
+namespace codewild\phpmvc;
 
-use codewild\csubmboer\core\exception\NotFoundException;
+use codewild\phpmvc\exception\NotFoundException;
 
 class Router {
     public Request $request;

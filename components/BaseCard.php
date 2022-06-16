@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core\components;
+namespace codewild\phpmvc\components;
 
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Model;
 
 abstract class BaseCard
 {

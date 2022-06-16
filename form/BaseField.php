@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core\form;
+namespace codewild\phpmvc\form;
 
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Model;
 
 abstract class BaseField {
     abstract public function renderInput(): string;

@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core\form;
+namespace codewild\phpmvc\form;
 
-use codewild\csubmboer\core\db\DbModel;
+use codewild\phpmvc\db\DbModel;
 
 class SelectField extends BaseField
 {

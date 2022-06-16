@@ -1,8 +1,8 @@
 <?php
 
-namespace codewild\csubmboer\core\table;
+namespace codewild\phpmvc\table;
 
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\Model;
 
 class BaseRow
 {

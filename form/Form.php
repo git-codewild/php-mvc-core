@@ -1,9 +1,9 @@
 <?php
 
-namespace codewild\csubmboer\core\form;
+namespace codewild\phpmvc\form;
 
-use codewild\csubmboer\core\db\DbModel;
-use codewild\csubmboer\core\Model;
+use codewild\phpmvc\db\DbModel;
+use codewild\phpmvc\Model;
 
 class Form {
     public const TYPE_DEFAULT = 'default';
