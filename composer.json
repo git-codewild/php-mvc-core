@@ -1,0 +1,12 @@
+{
+    "name": "codewild/php-mvc-core",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "git-codewild",
+            "email": "ben@codewild.org"
+        }
+    ],
+    "require": {}
+}
