@@ -23,7 +23,7 @@ class View {
             $layout = Application::$app->layout;
         }
         ob_start();
-        include_once Application::$ROOT_DIR."/views/_layouts/main.php";
+        include_once Application::$VIEWS_DIR."/_layouts/main.php";
         return ob_get_clean();
     }
 
@@ -32,7 +32,7 @@ class View {
             $$key = $value;
         }
         ob_start();
-        include_once Application::$ROOT_DIR."/views/$view.php";
+        include_once Application::$VIEWS_DIR."/$view.php";
         return ob_get_clean();
     }
 
