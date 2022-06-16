@@ -2,8 +2,6 @@
 
 namespace codewild\phpmvc;
 
-use codewild\csubmboer\views;
-
 class View {
     public string $title = '';
     public array $scripts = [];
@@ -25,7 +23,7 @@ class View {
             $layout = Application::$app->layout;
         }
         ob_start();
-        include_once __DIR__."../../views/_layouts/main.php";
+        include_once Application::$ROOT_DIR."/views/_layouts/main.php";
         return ob_get_clean();
     }
 
@@ -34,7 +32,7 @@ class View {
             $$key = $value;
         }
         ob_start();
-        include_once __DIR__."../../views/$view.php";
+        include_once Application::$ROOT_DIR."/views/$view.php";
         return ob_get_clean();
     }
 
