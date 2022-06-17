@@ -23,7 +23,7 @@ class View {
             $layout = Application::$app->layout;
         }
         ob_start();
-        include_once Application::$VIEWS_DIR."/_layouts/main.php";
+        include_once Application::$VIEWS_DIR."/_layouts/$layout.php";
         return ob_get_clean();
     }
 
