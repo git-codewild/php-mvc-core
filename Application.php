@@ -3,7 +3,7 @@
 namespace codewild\phpmvc;
 
 use codewild\phpmvc\db\Database;
-use codewild\csubmboer\models\ContactForm;
+use codewild\phpmvc\ContactForm;
 
 class Application {
     public static string $ROOT_DIR;
